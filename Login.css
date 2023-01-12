@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(orange,black);
+}
+
+.container{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem , 3rem;
+    border-radius: .5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container h1{
+     font-size: 1.5rem;
+     margin: 1.5rem;
+     text-align: center;
+}
+
+.container h1:hover{
+    color: blue;
+}
+
+.container form input{
+    font-weight: lighter;
+    border: none;   
+}
+
+input:focus{
+    outline:none;
+}
+
+.container form .username {
+    margin-bottom: .7rem;
+}
+
+.container form i {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.container form input {
+    font-size: 1rem;
+    color: blue;
+}
+
+.userArea {
+    margin-bottom: .7rem;
+}
+
+.container form .forgetpassword {
+    padding-left: 120px;
+    padding-top: 5px;
+    right: 0rem;
+    cursor: pointer;
+    bottom: 17rem;
+    font-size: .8rem; 
+}
+
+.container .forgetpassword:hover{
+    color: red;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .4rem;
+}
+
+.formbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formbottom a:hover{
+    color:red;
+}
+
+.formbottom ul{
+    margin-bottom: 3rem;
+}
+
+.formbottom p {
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+.flexUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexUl a {
+    text-decoration: none;
+}
+
+.flexUl li {
+    list-style: none;
+}
+
+.flexUl li i {
+    height: 30px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    padding: 0.7rem 0.8rem;
+    background: linear-gradient(to right, #53ecf1, #237aac);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* .btn:hover{
+    background: linear-gradient(rgb(68, 68, 241), rgb(185, 55, 168));
+} */
+
+#signUp {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#signUp:hover {
+    color: #ea0d0d;
+}
